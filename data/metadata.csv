@@ -1,0 +1,54 @@
+In order to understand the business nature of these data:,,
+1) Look below Table 1 for the features,,
+"2) Alternatively/in addition, Google the string in Row 6 of the the sheet ""Downlkoad"" (for example, if you paste the string in cell D6 ""XAU BGNL Curncy"", the Google search shows ""Current exchange rate Gold (XAU) to US DOLLAR (USD)"")",,
+,,
+Note,,
+"What you find in the sheet ""DownloadBLB"" is a raw download from Bloomberg, so you might have to cope with NaNs, different formats, etc",,
+,,
+Response variable,,
+Y,"manually tagged: Y=1 if abnormal risk/crisis, Y=0 otherwise",
+Features,,
+Table 1,,
+Name,Currency,Bloomberg Ticker
+Gold Spot   $/Oz,XAU,XAU BGNL
+Bloomberg ECO US Surprise Index,#N/A Field Not Applicable,ECSURPUS
+Baltic Dry Index,USD,BDIY
+TR/CC CRB ER Index,USD,CRY
+DOLLAR INDEX SPOT,USD,DXY
+Japanese Yen Spot,JPY,JPY
+British Pound Spot,GBP,GBP
+Generic 1st 'CL' Future,USD,Cl1
+Cboe Volatility Index,USD,VIX
+US Generic Govt 30 Yr,USD,USGG30YR
+US TREASURY N/B,USD,GT10
+US Generic Govt 2 Yr,USD,USGG2YR
+US Generic Govt 3 Mth,USD,USGG3M
+ICE LIBOR USD 1 Month,USD,US0001M
+BUNDESREPUB. DEUTSCHLAND,EUR,GTDEM30Y
+BUNDESREPUB. DEUTSCHLAND,EUR,GTDEM10Y
+BUNDESSCHATZANWEISUNGEN,EUR,GTDEM2Y
+EMMI EURO OverNight Index Aver,EUR,EONIA
+BUONI POLIENNALI DEL TES,EUR,GTITL30YR
+BUONI POLIENNALI DEL TES,EUR,GTITL10YR
+BUONI POLIENNALI DEL TES,EUR,GTITL2YR
+JAPAN (30 YEAR ISSUE),JPY,GTJPY30YR
+JAPAN (10 YEAR ISSUE),JPY,GTJPY10YR
+JAPAN (2 YEAR ISSUE),JPY,GTJPY2YR
+UK TSY 0 5/8% 2050,GBP,GTGBP30Y
+UK TSY 1 1/4% 2041,GBP,GTGBP20Y
+UK TSY 0 1/8% 2023,GBP,GTGBP2Y
+U.S. MBS,USD,LUMSTRUU
+Municipal Bond Index,USD,LMBITR
+Corporate,USD,LUACTRUU
+US Corporate High Yield,USD,LF98TRUU
+Global High Yield,USD,LG30TRUU
+Pan-European High Yield,EUR,LP01TREU
+EM USD Aggregate,USD,EMUSTRUU
+Global Inflation-Linked,USD,LF94TRUU
+MSCI USA,USD,MXUS
+MSCI EUROPE,EUR,MXEU
+MSCI JAPAN,JPY,MXJP
+MSCI BRAZIL,USD,MXBR
+MSCI RUSSIA,USD,MXRU
+MSCI INDIA,INR,MXIN
+MSCI CHINA,HKD,MXCN
